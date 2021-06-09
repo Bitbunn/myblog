@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+  font-size: small;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #27aa44;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.article-preview {
+  position: relative;
+  margin: 16px;
+  height: 170px;
+  width: 170px;
+  border-radius: 2px;
+  border: 1px;
+  background-color: rgba(156, 252, 247, 0.815);
+}
+.article-list {
+  margin-left: 300px;
+  width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.title {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: 15pt;
+}
+.parag {
+  text-align: center;
+  margin-left: 5px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+}
+.button1 {
+  width: 83px;
+  height: 40px;
+  margin-top: 12px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: red;
+}
+.button2 {
+  width: 83px;
+  height: 40px;
+  margin-top: 12px;
+  margin-left: 2px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  background-color: orange;
+}
+.bigtitle {
+  font-size: 30pt;
+  margin-left: 200px;
+  color: chartreuse;
+  margin-right: 50px;
+}
+.searchbar {
+  margin-top: 20px;
+  width: 1000px;
+  height: 30px;
+}
+.addedArticle {
+  font-size: 15pt;
+  font-family: "Quicksand";
+  color: rgb(121, 30, 30);
+}
+.modalBody {
+  font-size: 15pt;
+  font-family: "Quicksand";
+  color: rgb(121, 30, 30);
+}
+.titleadd {
+  margin-left: 50px;
+}
+.searchbarnput {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  margin-left: 15px;
+}
+.searchbar {
+  width: 650px;
+  margin-left: 300px;
+  height: 33px;
+
+  border-color: rgb(15, 214, 82);
+}
+.ajouter {
+  height: 33px;
+  margin-top: 20px;
+  background-color: #27aa44;
+  font-size: 10pt;
+  color: #f2f2f2;
+  width: 125px;
+  border-color: black;
+}
